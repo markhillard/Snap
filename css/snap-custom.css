@@ -1,0 +1,55 @@
+/* Snap (Custom) */
+
+
+
+/* Fonts & Icons (Development Only)
+================================================== */
+
+@import url(http://weloveiconfonts.com/api/?family=entypo);
+
+[class^="entypo-"]::before {
+font-family:"entypo", sans-serif;
+font-size:inherit;
+}
+
+
+
+/* Preload Images
+================================================== */
+
+body::after {
+content:url(images/img01.jpg)
+        url(images/img02.jpg)
+        url(images/img03.jpg);
+display:none;
+}
+
+
+
+/* Custom Styles
+================================================== */
+
+.container { margin-top:2%; }
+
+[class^="g-"] {
+background-color:rgba(0,0,0,.05);
+border-radius:2px;
+text-align:center;
+}
+
+.no-bg { background:none; }
+
+
+
+/* Media Queries (Screen Width)
+================================================== */
+
+/* Mobile */
+@media only screen and (max-width:767px) {
+
+}
+
+/* Tablet */
+@media only screen and (min-width:480px) and (max-width:767px) {
+
+}
