@@ -17,7 +17,12 @@ width:96.5%;
 ================================================== */
 
 .row { margin-bottom:2%; }
-.row .row { margin-bottom:0; }
+
+.row .row {
+margin:0;
+padding-left:0;
+padding-right:0;
+}
 
 .row [class^="g-"]:first-child,
 .row .row [class^="g-"]:first-child { margin-left:0 !important; }
@@ -207,18 +212,30 @@ margin-left:1.88679%;
 /* Media Queries
 ================================================== */
 
-/* Mobile */
-@media only screen and (max-width:767px) {
+/* Mobile & Tablet */
+@media only screen and (max-width:768px) {
 .row [class^="g-"],
 .row .row [class^="g-"] {
 display:block;
 margin:0;
+position:static;
 width:100%;
 }
 }
 
+/* Mobile */
+@media only screen and (max-width:479px) {
+.row [class^="g-"],
+.row .row [class^="g-"] {
+padding-left:0;
+padding-right:0;
+left:0;
+right:0;
+}
+}
+
 /* Tablet */
-@media only screen and (min-width:480px) and (max-width:767px) {
+@media only screen and (min-width:480px) and (max-width:768px) {
 .t-g-3,
 .t-g-2 { margin-left:1.88679% !important; }
 
