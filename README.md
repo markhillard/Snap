@@ -1,10 +1,10 @@
 #Snap#
 
-This is my own flavor of a fully responsive, infinitely nestable 12 column fluid grid. There are a few others out there, but I mainly drew inspiration from [Shelves](http://shelvesgrid.org/).
+This is my own flavor of a fully responsive, infinitely nestable 12 column fluid grid. There are a few others like it out in the wild and mine is definitely not the first, but I mainly drew inspiration from [Shelves](http://shelvesgrid.org/) and [Skeleton](http://www.getskeleton.com/).
 
-I've used many grid systems in the past, where I'd go through the normal routine of cleaning up a ton of code and/or removing things I didn't need or had no use for. I also don't like using any of the popular frameworks (i.e. Bootstrap, Foundation, etc.) because they're just too bloated in my opinion.
+I've used many grid systems in the past, where I'd go through the normal routine of cleaning up a ton of code and/or removing things I didn't need. I also don't like using any of the popular frameworks (i.e. Bootstrap, Foundation, etc.) because they're just too bloated in my opinion.
 
-So I created my own... with just enough to get a new project off the ground quickly and easily (hence the name).
+So I created my own... with just enough to get a new project off the ground.
 
 ##HTML Structure##
 
@@ -31,14 +31,17 @@ These are all inside a separate stylesheet, so just delete it if you'd like to s
 
 ###Spacing &amp; Ordering###
 
-You can use the following classes to adjust the stack order of columns and/or add space around them if needed (**n** being a number from 1 - 11).
+You can use the following classes to add space around columns and/or adjust their stack order if needed (**n** being a number from 1 - 11).
 
 - Prefix Space (padding-left): `prefix-n`
 - Suffix Space (padding-right): `suffix-n`
 - Push Order (left): `push-n`
 - Pull Order: (right) `pull-n`
 
-**Note:** If you use these classes, columns and spaces inside a row should still add up to 12.
+**Notes:**
+
+- If you use these classes, columns and spaces inside a **top-level** row should still add up to 12.
+- It's possible, but not recommended to push or pull nested columns because of alignment issues.
 
 ###Tablet Views###
 
@@ -75,25 +78,9 @@ You can use the following classes (in addition to `g-n`) to prevent columns from
         <div class="row">
             <div class="g-2">
                 <h3>g-2</h3>
-                <div class="row">
-                    <div class="g-1">
-                        <h3>g-1</h3>
-                    </div>
-                    <div class="g-1">
-                        <h3>g-1</h3>
-                    </div>
-                </div>
             </div>
             <div class="g-2">
                 <h3>g-2</h3>
-                <div class="row">
-                    <div class="g-1">
-                        <h3>g-1</h3>
-                    </div>
-                    <div class="g-1">
-                        <h3>g-1</h3>
-                    </div>
-                </div>
             </div>
         </div>
     </div>
@@ -102,25 +89,9 @@ You can use the following classes (in addition to `g-n`) to prevent columns from
         <div class="row">
             <div class="g-2">
                 <h3>g-2</h3>
-                <div class="row">
-                    <div class="g-1">
-                        <h3>g-1</h3>
-                    </div>
-                    <div class="g-1">
-                        <h3>g-1</h3>
-                    </div>
-                </div>
             </div>
             <div class="g-2">
                 <h3>g-2</h3>
-                <div class="row">
-                    <div class="g-1">
-                        <h3>g-1</h3>
-                    </div>
-                    <div class="g-1">
-                        <h3>g-1</h3>
-                    </div>
-                </div>
             </div>
         </div>
     </div>
@@ -129,25 +100,9 @@ You can use the following classes (in addition to `g-n`) to prevent columns from
         <div class="row">
             <div class="g-2">
                 <h3>g-2</h3>
-                <div class="row">
-                    <div class="g-1">
-                        <h3>g-1</h3>
-                    </div>
-                    <div class="g-1">
-                        <h3>g-1</h3>
-                    </div>
-                </div>
             </div>
             <div class="g-2">
                 <h3>g-2</h3>
-                <div class="row">
-                    <div class="g-1">
-                        <h3>g-1</h3>
-                    </div>
-                    <div class="g-1">
-                        <h3>g-1</h3>
-                    </div>
-                </div>
             </div>
         </div>
     </div>
