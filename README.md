@@ -45,7 +45,7 @@ You can use the following classes to add space around columns and/or adjust thei
 
 ###Tablet Views###
 
-You can use the following classes (in addition to `g-n`) to prevent columns from stacking when your screen gets down to tablet (portrait) size.
+You can use the following classes (in addition to `g-n`) to prevent columns from stacking when your screen gets down to tablet (portrait) size. These will also work on nested columns.
 
 - 2 Equal Columns: `t-g-2`
 - 3 Equal Columns: `t-g-3`
@@ -70,7 +70,7 @@ You can use the following classes (in addition to `g-n`) to prevent columns from
 </div>
 ```
 
-**3 Nested Columns / 3 Column Tablet View:**
+**3 Nested Columns / 3 Column Tablet (Portrait) View:**
 ```html
 <div class="row">
     <div class="g-4 t-g-3">
