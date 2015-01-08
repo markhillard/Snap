@@ -50,6 +50,10 @@ You can use the following classes (in addition to `g-n`) to prevent columns from
 - 2 Equal Columns: `t-g-2`
 - 3 Equal Columns: `t-g-3`
 
+###Forced 1/3 Columns###
+
+This helps when you want 3 equal columns that can't fit inside a container (i.e. 3 equal columns inside a `div` with a class of `g-8`). Simply use the `g-1-3` class to achieve this.
+
 ##Examples##
 
 **4 Columns:**
