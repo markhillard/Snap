@@ -148,6 +148,7 @@ li { margin-bottom:15px; }
 ================================================== */
 
 img { min-width:100%; max-width:100%; height:auto; }
+.not-resp { min-width:auto; max-width:auto; height:auto; }
 
 
 
