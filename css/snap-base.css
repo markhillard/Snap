@@ -255,13 +255,13 @@ resize:none;
 ================================================== */
 
 @media only screen and (min-width:769px) {
-.visible-mobile,.visible-tablet,.hidden-desktop { display:none !important; }
+    .visible-mobile,.visible-tablet,.hidden-desktop { display:none !important; }
 }
 
 @media only screen and (min-width:480px) and (max-width:768px) {
-.visible-mobile,.hidden-tablet,.visible-desktop { display:none !important; }
+    .visible-mobile,.hidden-tablet,.visible-desktop { display:none !important; }
 }
 
 @media only screen and (max-width:479px) {
-.hidden-mobile,.visible-tablet,.visible-desktop { display:none !important; }
+    .hidden-mobile,.visible-tablet,.visible-desktop { display:none !important; }
 }
