@@ -254,11 +254,11 @@ resize:none;
 /* Visibility Helpers (Use Sparingly)
 ================================================== */
 
-@media only screen and (min-width:769px) {
+@media only screen and (min-width:800px) {
     .visible-mobile,.visible-tablet,.hidden-desktop { display:none !important; }
 }
 
-@media only screen and (min-width:480px) and (max-width:768px) {
+@media only screen and (min-width:480px) and (max-width:800px) {
     .visible-mobile,.hidden-tablet,.visible-desktop { display:none !important; }
 }
 

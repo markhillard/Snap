@@ -233,7 +233,7 @@ margin-left:1.88679%;
 ================================================== */
 
 /* Mobile & Tablet */
-@media only screen and (max-width:768px) {
+@media only screen and (max-width:800px) {
     .row [class^="g-"],
     .row .row [class^="g-"] {
     display:block;
@@ -255,7 +255,7 @@ margin-left:1.88679%;
 }
 
 /* Tablet */
-@media only screen and (min-width:480px) and (max-width:768px) {
+@media only screen and (min-width:480px) and (max-width:800px) {
     .t-g-3,
     .t-g-2 { margin-left:1.88679% !important; }
     
