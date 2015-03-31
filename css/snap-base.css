@@ -91,7 +91,7 @@ blockquote {
 border-left:6px solid #ddd;
 margin:30px 0;
 padding:0 20px;
-quotes:"\201C""\201D""\2018""\2019";
+quotes:"\201c""\201d""\2018""\2019";
 text-align:left;
 }
 
@@ -104,7 +104,7 @@ margin-right:15px;
 vertical-align:-25px;
 }
 
-q { quotes:"\201C""\201D""\2018""\2019"; }
+q { quotes:"\201c""\201d""\2018""\2019"; }
 q::before { content:open-quote"\0020"; }
 q::after { content:"\0020"close-quote; }
 
@@ -138,7 +138,7 @@ ul.circle { list-style:circle outside; }
 ul.disc { list-style:disc outside; }
 ul.square { list-style:square outside; }
 
-ul ul,ul ol,ol ol,ol ul { margin:7.5px 0 0 30px; }
+ul ul,ul ol,ol ol,ol ul { list-style:inherit; margin:7.5px 0 0 30px; }
 ul ul li,ul ol li,ol ol li,ol ul li { margin-bottom:7.5px; }
 li { margin-bottom:15px; }
 
@@ -147,8 +147,8 @@ li { margin-bottom:15px; }
 /* Images
 ================================================== */
 
-img { min-width:100%; max-width:100%; height:auto; }
-.not-resp { min-width:auto; max-width:auto; height:auto; }
+/* make responsive */
+.resp { min-width:100%; max-width:100%; height:auto; }
 
 
 
