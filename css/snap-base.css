@@ -254,7 +254,7 @@ resize:none;
 /* Visibility Helpers (Use Sparingly)
 ================================================== */
 
-@media only screen and (min-width:800px) {
+@media only screen and (min-width:801px) {
     .visible-mobile,.visible-tablet,.hidden-desktop { display:none !important; }
 }
 
