@@ -2,25 +2,40 @@
 
 
 
-/* Fonts & Icons (Development Only)
+/* Fonts & Icons
 ================================================== */
 
-@import url(http://weloveiconfonts.com/api/?family=entypo);
-
-[class^="entypo-"]::before {
-font-family:"entypo", sans-serif;
-font-size:inherit;
+@font-face {
+    font-family:"entypo";
+    src:url("../fonts/entypo.eot");
+    src:url("../fonts/entypo.eot#iefix") format("embedded-opentype"),
+        url("../fonts/entypo.woff") format("woff"),
+        url("../fonts/entypo.ttf") format("truetype"),
+        url("../fonts/entypo.svg#entypo") format("svg");
+    font-weight:normal;
+    font-style:normal;
 }
+
+[class*="icon-"]::before,
+[class*="icon-"]::after {   
+font-family:"entypo";
+font-style:normal;
+}
+
+.icon-flash::before { content:"\e800"; }
+.icon-github::before { content:"\e801"; }
+.icon-down-bold::before { content:"\e802"; }
 
 
 
 /* Preload Images
 ================================================== */
+
 /*
 body::after {
-content:url(images/img01.jpg)
-        url(images/img02.jpg)
-        url(images/img03.jpg);
+content:url("images/img01.jpg")
+        url("images/img02.jpg")
+        url("images/img03.jpg");
 display:none;
 }
 */
