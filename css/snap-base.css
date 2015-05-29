@@ -50,7 +50,7 @@ line-height:1.45;
 }
 
 /* Transitions */
-a,button,input,textarea { transition:all 100ms ease; }
+a,button,input,textarea { transition:all 200ms ease; }
 
 /* Highlighting */
 ::selection { background-color:#6495ed; color:#fff; }
@@ -122,7 +122,7 @@ blockquote cite::before,q cite::before  { content:"\0020""\2014""\0020"; }
 
 a,a:link,a:visited { color:#444; text-decoration:underline; }
 p a,p a:link,p a:visited { line-height:inherit; }
-a:hover,a:active { color:#444; }
+a:hover,a:active { color:#000; }
 
 
 

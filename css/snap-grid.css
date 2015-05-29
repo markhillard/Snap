@@ -7,8 +7,8 @@
 
 .container {
 margin:0 auto;
-max-width:none;
-width:96.5%;
+max-width:1200px;
+width:90%;
 }
 
 
@@ -38,6 +38,9 @@ margin-left:1.88679%;
 
 /* Grid (12 Columns)
 ================================================== */
+
+.row .g-1-3 { width:32.07547%; }
+.row .g-1-2 { width:49.0566%; }
 
 .row .g-12 { width:100%; }
 .row .g-12 [class^="g-"] { margin-left:2%; }
@@ -260,7 +263,7 @@ margin-left:1.88679%;
     .t-g-2 { margin-left:1.88679% !important; }
     
     .t-g-3 { width:32.07547% !important; }
-    .t-g-2 { width:49.05661% !important; }
+    .t-g-2 { width:49.0566% !important; }
     
     .t-g-3:nth-of-type(4n),
     .t-g-2:nth-of-type(odd) { margin-left:0 !important; }

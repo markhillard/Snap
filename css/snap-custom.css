@@ -45,7 +45,9 @@ display:none;
 /* Custom Styles
 ================================================== */
 
-.container { margin-top:2%; }
+section { padding:2% 0; }
+section:nth-child(odd) { background-color:rgba(0,0,0,.025); }
+section:nth-child(even) { background-color:rgba(0,0,0,.05); }
 
 [class^="g-"] {
 background-color:rgba(0,0,0,.05);
@@ -54,6 +56,7 @@ text-align:center;
 }
 
 .no-bg { background:none; }
+#footer p { margin-top:1.3rem; }
 
 
 

@@ -8,7 +8,7 @@
 <meta charset="utf-8">
 <meta name="author" content="Mark Hillard">
 <meta name="description" content="Snap is an infinitely nestable 12 column fluid grid. Use it for rapid prototyping, wireframes or fully functional websites ready for production.">
-<meta name="keywords" content="Snap, Nestable, Fluid, Grid">
+<meta name="keywords" content="Snap, Nestable, Fluid, Grid, CSS">
 
 <!--google analytics meta information-->
 <meta name="google-site-verification" content="B1GzxrptrcauhB05z1GyXDVG5Cv9NeSPt5ebOiezGV4">
@@ -72,322 +72,259 @@
 </head>
 
 <body>
-<!--begin main container-->
-<div class="container">
-    <div class="row remove-bottom">
-        <div class="g-12 no-bg">
-            <h1><span class="icon-flash"></span> Snap</h1>
-            <p>Infinitely Nestable 12 Column Fluid Grid<br><span class="icon-github"></span> <a href="https://github.com/markhillard/Snap">Project Page</a> | <span class="icon-down-bold"></span> <a href="https://github.com/markhillard/Snap/archive/gh-pages.zip">Download Zip</a></p>
+<!--begin wrapper-->
+<div id="wrapper">
+    <section id="header">
+        <div class="container">
+            <div class="row remove-bottom">
+                <div class="g-12 no-bg">
+                    <h1><span class="icon-flash"></span> Snap</h1>
+                    <p>Infinitely Nestable 12 Column Fluid Grid<br><span class="icon-github"></span> <a href="https://github.com/markhillard/Snap">Project Page</a> | <span class="icon-down-bold"></span> <a href="https://github.com/markhillard/Snap/archive/gh-pages.zip">Download Zip</a></p>
+                </div>
+            </div>
         </div>
-    </div>
-    <div class="row remove-bottom">
-        <div class="g-12 no-bg">
-            <hr>
-        </div>
-    </div>
-    <div class="row">
-        <div class="g-12 no-bg">
-            <h2>Base Grid</h2>
-            <p>Mobile (Landscape) &plus; Tablet (Portrait)<br>2 Columns / Adjacent</p>
-        </div>
-    </div>
-    <div class="row">
-        <div class="g-12">
-            <h3>g-12</h3>
-        </div>
-    </div>
-    <div class="row">
-        <div class="g-1 t-g-2">
-            <h3>g-1</h3>
-        </div>
-        <div class="g-11 t-g-2">
-            <h3>g-11</h3>
-        </div>
-    </div>
-    <div class="row">
-        <div class="g-2 t-g-2">
-            <h3>g-2</h3>
-        </div>
-        <div class="g-10 t-g-2">
-            <h3>g-10</h3>
-        </div>
-    </div>
-    <div class="row">
-        <div class="g-3 t-g-2">
-            <h3>g-3</h3>
-        </div>
-        <div class="g-9 t-g-2">
-            <h3>g-9</h3>
-        </div>
-    </div>
-    <div class="row">
-        <div class="g-4 t-g-2">
-            <h3>g-4</h3>
-        </div>
-        <div class="g-8 t-g-2">
-            <h3>g-8</h3>
-        </div>
-    </div>
-    <div class="row">
-        <div class="g-5 t-g-2">
-            <h3>g-5</h3>
-        </div>
-        <div class="g-7 t-g-2">
-            <h3>g-7</h3>
-        </div>
-    </div>
-    <div class="row">
-        <div class="g-6 t-g-2">
-            <h3>g-6</h3>
-        </div>
-        <div class="g-6 t-g-2">
-            <h3>g-6</h3>
-        </div>
-    </div>
-    <div class="row">
-        <div class="g-7 t-g-2">
-            <h3>g-7</h3>
-        </div>
-        <div class="g-5 t-g-2">
-            <h3>g-5</h3>
-        </div>
-    </div>
-    <div class="row">
-        <div class="g-8 t-g-2">
-            <h3>g-8</h3>
-        </div>
-        <div class="g-4 t-g-2">
-            <h3>g-4</h3>
-        </div>
-    </div>
-    <div class="row">
-        <div class="g-9 t-g-2">
-            <h3>g-9</h3>
-        </div>
-        <div class="g-3 t-g-2">
-            <h3>g-3</h3>
-        </div>
-    </div>
-    <div class="row">
-        <div class="g-10 t-g-2">
-            <h3>g-10</h3>
-        </div>
-        <div class="g-2 t-g-2">
-            <h3>g-2</h3>
-        </div>
-    </div>
-    <div class="row">
-        <div class="g-11 t-g-2">
-            <h3>g-11</h3>
-        </div>
-        <div class="g-1 t-g-2">
-            <h3>g-1</h3>
-        </div>
-    </div>
-    <div class="row">
-        <div class="g-12">
-            <h3>g-12</h3>
-        </div>
-    </div>
-    <div class="row remove-bottom">
-        <div class="g-12 no-bg">
-            <hr>
-        </div>
-    </div>
-    <div class="row">
-        <div class="g-12 no-bg">
-            <h2>Nested Grid</h2>
-            <p>Mobile (Landscape) &plus; Tablet (Portrait)<br>3 Columns / Adjacent &plus; Stacked</p>
-        </div>
-    </div>
-    <div class="row">
-        <div class="g-4 t-g-3">
-            <h3>g-4</h3>
+    </section>
+    <section id="base-grid">
+        <div class="container">
             <div class="row">
-                <div class="g-2">
+                <div class="g-12 no-bg">
+                    <h2>Base Grid</h2>
+                    <p>Mobile (Landscape) &plus; Tablet (Portrait)<br>2 Columns / Adjacent</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="g-12">
+                    <h3>g-12</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="g-1 t-g-2">
+                    <h3>g-1</h3>
+                </div>
+                <div class="g-11 t-g-2">
+                    <h3>g-11</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="g-2 t-g-2">
                     <h3>g-2</h3>
+                </div>
+                <div class="g-10 t-g-2">
+                    <h3>g-10</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="g-3 t-g-2">
+                    <h3>g-3</h3>
+                </div>
+                <div class="g-9 t-g-2">
+                    <h3>g-9</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="g-4 t-g-2">
+                    <h3>g-4</h3>
+                </div>
+                <div class="g-8 t-g-2">
+                    <h3>g-8</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="g-5 t-g-2">
+                    <h3>g-5</h3>
+                </div>
+                <div class="g-7 t-g-2">
+                    <h3>g-7</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="g-6 t-g-2">
+                    <h3>g-6</h3>
+                </div>
+                <div class="g-6 t-g-2">
+                    <h3>g-6</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="g-7 t-g-2">
+                    <h3>g-7</h3>
+                </div>
+                <div class="g-5 t-g-2">
+                    <h3>g-5</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="g-8 t-g-2">
+                    <h3>g-8</h3>
+                </div>
+                <div class="g-4 t-g-2">
+                    <h3>g-4</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="g-9 t-g-2">
+                    <h3>g-9</h3>
+                </div>
+                <div class="g-3 t-g-2">
+                    <h3>g-3</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="g-10 t-g-2">
+                    <h3>g-10</h3>
+                </div>
+                <div class="g-2 t-g-2">
+                    <h3>g-2</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="g-11 t-g-2">
+                    <h3>g-11</h3>
+                </div>
+                <div class="g-1 t-g-2">
+                    <h3>g-1</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="g-12">
+                    <h3>g-12</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="nested-grid">
+        <div class="container">
+            <div class="row">
+                <div class="g-12 no-bg">
+                    <h2>Nested Grid</h2>
+                    <p>Mobile (Landscape) &plus; Tablet (Portrait)<br>3 Columns / Adjacent &plus; Stacked</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="g-4 t-g-3">
+                    <h3>g-4</h3>
                     <div class="row">
-                        <div class="g-1">
-                            <h3>g-1</h3>
+                        <div class="g-2">
+                            <h3>g-2</h3>
+                            <div class="row">
+                                <div class="g-1">
+                                    <h3>g-1</h3>
+                                </div>
+                                <div class="g-1">
+                                    <h3>g-1</h3>
+                                </div>
+                            </div>
                         </div>
-                        <div class="g-1">
-                            <h3>g-1</h3>
+                        <div class="g-2">
+                            <h3>g-2</h3>
+                            <div class="row">
+                                <div class="g-1">
+                                    <h3>g-1</h3>
+                                </div>
+                                <div class="g-1">
+                                    <h3>g-1</h3>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="g-2">
-                    <h3>g-2</h3>
+                <div class="g-4 t-g-3">
+                    <h3>g-4</h3>
                     <div class="row">
-                        <div class="g-1">
-                            <h3>g-1</h3>
+                        <div class="g-2">
+                            <h3>g-2</h3>
+                            <div class="row">
+                                <div class="g-1">
+                                    <h3>g-1</h3>
+                                </div>
+                                <div class="g-1">
+                                    <h3>g-1</h3>
+                                </div>
+                            </div>
                         </div>
-                        <div class="g-1">
-                            <h3>g-1</h3>
+                        <div class="g-2">
+                            <h3>g-2</h3>
+                            <div class="row">
+                                <div class="g-1">
+                                    <h3>g-1</h3>
+                                </div>
+                                <div class="g-1">
+                                    <h3>g-1</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="g-4 t-g-3">
+                    <h3>g-4</h3>
+                    <div class="row">
+                        <div class="g-2">
+                            <h3>g-2</h3>
+                            <div class="row">
+                                <div class="g-1">
+                                    <h3>g-1</h3>
+                                </div>
+                                <div class="g-1">
+                                    <h3>g-1</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="g-2">
+                            <h3>g-2</h3>
+                            <div class="row">
+                                <div class="g-1">
+                                    <h3>g-1</h3>
+                                </div>
+                                <div class="g-1">
+                                    <h3>g-1</h3>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="g-4 t-g-3">
-            <h3>g-4</h3>
+    </section>
+    <section id="equal-columns">
+        <div class="container">
             <div class="row">
-                <div class="g-2">
-                    <h3>g-2</h3>
-                    <div class="row">
-                        <div class="g-1">
-                            <h3>g-1</h3>
-                        </div>
-                        <div class="g-1">
-                            <h3>g-1</h3>
-                        </div>
-                    </div>
+                <div class="g-12 no-bg">
+                    <h2>Equal Columns</h2>
+                    <p>Mobile (Landscape) &plus; Tablet (Portrait)<br>2 &plus; 3 Columns / Adjacent</p>
                 </div>
-                <div class="g-2">
-                    <h3>g-2</h3>
-                    <div class="row">
-                        <div class="g-1">
-                            <h3>g-1</h3>
-                        </div>
-                        <div class="g-1">
-                            <h3>g-1</h3>
-                        </div>
-                    </div>
+            </div>
+            <div class="row">
+                <div class="g-1-2 t-g-2">
+                    <h3>g-1-2</h3>
+                </div>
+                <div class="g-1-2 t-g-2">
+                    <h3>g-1-2</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="g-1-3 t-g-3">
+                    <h3>g-1-3</h3>
+                </div>
+                <div class="g-1-3 t-g-3">
+                    <h3>g-1-3</h3>
+                </div>
+                <div class="g-1-3 t-g-3">
+                    <h3>g-1-3</h3>
                 </div>
             </div>
         </div>
-        <div class="g-4 t-g-3">
-            <h3>g-4</h3>
+    </section>
+    <section id="footer">
+        <div class="container">
             <div class="row">
-                <div class="g-2">
-                    <h3>g-2</h3>
-                    <div class="row">
-                        <div class="g-1">
-                            <h3>g-1</h3>
-                        </div>
-                        <div class="g-1">
-                            <h3>g-1</h3>
-                        </div>
-                    </div>
-                </div>
-                <div class="g-2">
-                    <h3>g-2</h3>
-                    <div class="row">
-                        <div class="g-1">
-                            <h3>g-1</h3>
-                        </div>
-                        <div class="g-1">
-                            <h3>g-1</h3>
-                        </div>
-                    </div>
+                <div class="g-12 no-bg">
+                    <p>Created by <a href="http://www.markhillard.com/">Mark Hillard</a></p>
                 </div>
             </div>
         </div>
-    </div>
-    <div class="row remove-bottom">
-        <div class="g-12 no-bg">
-            <hr>
-        </div>
-    </div>
-    <div class="row">
-        <div class="g-12 no-bg">
-            <h2>Equal Columns</h2>
-        </div>
-    </div>
-    <div class="row">
-        <div class="g-4">
-            <h3>g-4</h3>
-        </div>
-        <div class="g-4">
-            <h3>g-4</h3>
-        </div>
-        <div class="g-4">
-            <h3>g-4</h3>
-        </div>
-    </div>
-    <div class="row">
-        <div class="g-3">
-            <h3>g-3</h3>
-        </div>
-        <div class="g-3">
-            <h3>g-3</h3>
-        </div>
-        <div class="g-3">
-            <h3>g-3</h3>
-        </div>
-        <div class="g-3">
-            <h3>g-3</h3>
-        </div>
-    </div>
-    <div class="row">
-        <div class="g-2">
-            <h3>g-2</h3>
-        </div>
-        <div class="g-2">
-            <h3>g-2</h3>
-        </div>
-        <div class="g-2">
-            <h3>g-2</h3>
-        </div>
-        <div class="g-2">
-            <h3>g-2</h3>
-        </div>
-        <div class="g-2">
-            <h3>g-2</h3>
-        </div>
-        <div class="g-2">
-            <h3>g-2</h3>
-        </div>
-    </div>
-    <div class="row">
-        <div class="g-1">
-            <h3>g-1</h3>
-        </div>
-        <div class="g-1">
-            <h3>g-1</h3>
-        </div>
-        <div class="g-1">
-            <h3>g-1</h3>
-        </div>
-        <div class="g-1">
-            <h3>g-1</h3>
-        </div>
-        <div class="g-1">
-            <h3>g-1</h3>
-        </div>
-        <div class="g-1">
-            <h3>g-1</h3>
-        </div>
-        <div class="g-1">
-            <h3>g-1</h3>
-        </div>
-        <div class="g-1">
-            <h3>g-1</h3>
-        </div>
-        <div class="g-1">
-            <h3>g-1</h3>
-        </div>
-        <div class="g-1">
-            <h3>g-1</h3>
-        </div>
-        <div class="g-1">
-            <h3>g-1</h3>
-        </div>
-        <div class="g-1">
-            <h3>g-1</h3>
-        </div>
-    </div>
-    <div class="row remove-bottom">
-        <div class="g-12 no-bg">
-            <hr>
-        </div>
-    </div>
-    <div class="row">
-        <div class="g-12 no-bg">
-            <p>Created by <a href="http://www.markhillard.com/">Mark Hillard</a></p>
-        </div>
-    </div>
+    </section>
 </div>
-<!--end main container-->
+<!--end wrapper-->
 
 <!--google analytics-->
 <script>
