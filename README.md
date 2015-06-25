@@ -58,55 +58,59 @@ This helps when you want 2 or 3 equal columns that can't fit inside a container 
 
 **4 Columns:**
 ```html
-<div class="row">
-    <div class="g-3">
-        <h3>g-3</h3>
-    </div>
-    <div class="g-3">
-        <h3>g-3</h3>
-    </div>
-    <div class="g-3">
-        <h3>g-3</h3>
-    </div>
-    <div class="g-3">
-        <h3>g-3</h3>
+<div class="container">
+    <div class="row">
+        <div class="g-3">
+            <h3>g-3</h3>
+        </div>
+        <div class="g-3">
+            <h3>g-3</h3>
+        </div>
+        <div class="g-3">
+            <h3>g-3</h3>
+        </div>
+        <div class="g-3">
+            <h3>g-3</h3>
+        </div>
     </div>
 </div>
 ```
 
 **3 Nested Columns / 3 Column Tablet (Portrait) View:**
 ```html
-<div class="row">
-    <div class="g-4 t-g-3">
-        <h3>g-4</h3>
-        <div class="row">
-            <div class="g-2">
-                <h3>g-2</h3>
-            </div>
-            <div class="g-2">
-                <h3>g-2</h3>
-            </div>
-        </div>
-    </div>
-    <div class="g-4 t-g-3">
-        <h3>g-4</h3>
-        <div class="row">
-            <div class="g-2">
-                <h3>g-2</h3>
-            </div>
-            <div class="g-2">
-                <h3>g-2</h3>
+<div class="container">
+    <div class="row">
+        <div class="g-4 t-g-3">
+            <h3>g-4</h3>
+            <div class="row">
+                <div class="g-2">
+                    <h3>g-2</h3>
+                </div>
+                <div class="g-2">
+                    <h3>g-2</h3>
+                </div>
             </div>
         </div>
-    </div>
-    <div class="g-4 t-g-3">
-        <h3>g-4</h3>
-        <div class="row">
-            <div class="g-2">
-                <h3>g-2</h3>
+        <div class="g-4 t-g-3">
+            <h3>g-4</h3>
+            <div class="row">
+                <div class="g-2">
+                    <h3>g-2</h3>
+                </div>
+                <div class="g-2">
+                    <h3>g-2</h3>
+                </div>
             </div>
-            <div class="g-2">
-                <h3>g-2</h3>
+        </div>
+        <div class="g-4 t-g-3">
+            <h3>g-4</h3>
+            <div class="row">
+                <div class="g-2">
+                    <h3>g-2</h3>
+                </div>
+                <div class="g-2">
+                    <h3>g-2</h3>
+                </div>
             </div>
         </div>
     </div>
