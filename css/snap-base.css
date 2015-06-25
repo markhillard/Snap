@@ -148,7 +148,7 @@ li { margin-bottom:1rem; }
 /* Images
 ================================================== */
 
-img {}
+img { display:block; }
 
 /* make responsive */
 .resp { min-width:100%; max-width:100%; height:auto; }
