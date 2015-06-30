@@ -250,10 +250,18 @@ margin-left:1.88679%;
 @media only screen and (max-width:479px) {
     .row [class^="g-"],
     .row .row [class^="g-"] {
-    padding-left:0;
-    padding-right:0;
     left:0;
     right:0;
+    }
+    
+    .row [class*="prefix-"],
+    .row .row [class*="prefix-"] {
+    padding-left:0;
+    }
+    
+    .row [class*="suffix-"],
+    .row .row [class*="suffix-"] {
+    padding-right:0;
     }
 }
 
