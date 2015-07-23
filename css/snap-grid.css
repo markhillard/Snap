@@ -240,7 +240,7 @@ margin-left:1.88679%;
     .row [class^="g-"],
     .row .row [class^="g-"] {
     display:block;
-    margin:0;
+    margin-left:0;
     position:static;
     width:100%;
     }
