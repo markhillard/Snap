@@ -25,7 +25,7 @@ The `g-n` class should always add up to whatever the parent column's class is. F
 
 ###Base Styles###
 
-I've created a set of "sanitized" styles to get started with. Included is a modified CSS reset, neutral styles for typography, block &amp; inline quotations, links, lists, images, buttons and form elements as well as other miscellaneous "helper" classes.
+I've created a set of "sanitized" styles to get started with. Included is a modified CSS reset, neutral styles for typography, block &amp; inline quotations, links, lists, images, buttons, and form elements as well as other miscellaneous "helper" classes.
 
 These are all inside a separate stylesheet, so just delete it if you'd like to start from scratch.
 
