@@ -54,6 +54,10 @@ You can use the following classes (in addition to `g-n`) to prevent columns from
 
 This helps when you want 2 or 3 equal columns that can't fit inside a container (i.e. 3 equal columns inside a `div` with a class of `g-8`). Simply use the `g-1-2` or `g-1-3` classes to achieve this.
 
+##Browser Support##
+
+Snap works in all modern web browsers and IE9+.
+
 ##Examples##
 
 **4 Columns:**
