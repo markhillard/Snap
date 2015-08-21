@@ -58,7 +58,7 @@ a { transition:all 200ms ease; }
 
 
 
-/* Typography
+/* Typography (http://type-scale.com/)
 ================================================== */
 
 h1,h2,h3,h4 { font-weight:inherit; line-height:1.2; margin:1.414rem 0; }
@@ -134,7 +134,7 @@ ul,ol { margin:1.25rem; text-align:left; }
 ul { list-style:none outside; }
 ol { list-style:decimal; }
 
-ul.circle,ul.disc,ul.square,ol { margin-left:1.875rem; }
+ul.circle,ul.disc,ul.square { margin-left:1.875rem; }
 ul.circle { list-style:circle outside; }
 ul.disc { list-style:disc outside; }
 ul.square { list-style:square outside; }
@@ -150,7 +150,7 @@ li { margin-bottom:1rem; }
 
 img { display:block; }
 
-/* make responsive */
+/* responsive */
 .resp { min-width:100%; max-width:100%; height:auto; }
 
 

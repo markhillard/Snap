@@ -17,7 +17,7 @@
 }
 
 [class*="icon-"]::before,
-[class*="icon-"]::after {   
+[class*="icon-"]::after {
 font-family:"entypo";
 font-style:normal;
 }
