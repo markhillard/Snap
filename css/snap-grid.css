@@ -284,7 +284,8 @@ margin-left:1.88679%;
 
 .container::after,
 .row::after,
-[class^="g-"]::after {
+[class^="g-"]::after,
+.clearfix {
 clear:both;
 content:"";
 display:table;
