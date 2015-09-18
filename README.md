@@ -1,4 +1,4 @@
-#Snap#
+# Snap
 
 This is my own flavor of a fully responsive, infinitely nestable 12 column fluid grid. There are a few others like it out in the wild and mine is definitely not the first, but I mainly drew inspiration from [Shelves](http://shelvesgrid.org/) and [Skeleton](http://www.getskeleton.com/).
 
@@ -6,7 +6,7 @@ I've used many grid systems in the past, where I'd go through the normal routine
 
 So I created my own... with just enough to get a new project off the ground.
 
-##HTML Structure##
+## HTML Structure
 
 There's not much too it.
 
@@ -15,21 +15,21 @@ There's not much too it.
 3. Create a few child `div`'s, each with a class of `g-n` (**n** being a number from 1 - 12).
 4. Ensure that each column in a row adds up to 12.
 
-###Nesting###
+### Nesting
 
 To nest columns, simply create another row inside a column and add more columns inside that row (see example below).
 
 The `g-n` class should always add up to whatever the parent column's class is. For instance, if you have a column with a class of `g-4`, each child column would have a class of `g-2` (or `g-1` + `g-3`).
 
-##Features##
+## Features
 
-###Base Styles###
+### Base Styles
 
 I've created a set of "sanitized" styles to get started with. Included is a modified CSS reset, neutral styles for typography, block &amp; inline quotations, links, lists, images, buttons, and form elements as well as other miscellaneous "helper" classes.
 
 These are all inside a separate stylesheet, so just delete it if you'd like to start from scratch.
 
-###Spacing &amp; Ordering###
+### Spacing &amp; Ordering
 
 You can use the following classes to add space around columns and/or adjust their stack order if needed (**n** being a number from 1 - 11).
 
@@ -43,22 +43,22 @@ You can use the following classes to add space around columns and/or adjust thei
 - If you use these classes, columns and spaces inside a **top-level** row should still add up to 12.
 - It's possible, but not recommended to push or pull nested columns because of alignment issues.
 
-###Tablet Views###
+### Tablet Views
 
 You can use the following classes (in addition to `g-n`) to prevent columns from stacking when your screen gets down to tablet (portrait) size. These will also work on nested columns.
 
 - 2 Equal Columns: `t-g-2`
 - 3 Equal Columns: `t-g-3`
 
-###Forced Equal Columns###
+### Forced Equal Columns
 
 This helps when you want 2 or 3 equal columns that can't fit inside a container (i.e. 3 equal columns inside a `div` with a class of `g-8`). Simply use the `g-1-2` or `g-1-3` classes to achieve this.
 
-##Browser Support##
+## Browser Support
 
 Snap works in all modern web browsers and IE9+.
 
-##Examples##
+## Examples
 
 **4 Columns:**
 ```html
