@@ -24,7 +24,7 @@ blockquote,q { quotes:none; }
 blockquote::before,blockquote::after,q::before,q::after { content:none; }
 table { border-collapse:collapse; border-spacing:0; }
 
-button,input:not([type="checkbox"]),input:not([type="radio"]),textarea { appearance:none; background:none; }
+button,input:not([type="checkbox"]):not([type="radio"]),textarea { appearance:none; background:none; }
 button::-moz-focus-inner,input::-moz-focus-inner { border:0; padding:0; }
 
 * { -webkit-tap-highlight-color:rgba(0,0,0,0); -webkit-tap-highlight-color:transparent; }
@@ -169,7 +169,7 @@ box-shadow:0 3px #ddd;
 color:#444;
 cursor:pointer;
 display:inline-block;
-font:300 1.02rem "Open Sans", sans-serif;
+font:300 1rem "Open Sans", sans-serif;
 line-height:normal;
 margin:0 0 1.25rem;
 padding:.865rem 1.365rem;
@@ -213,7 +213,7 @@ border-radius:3px;
 box-shadow:0 3px #ddd inset;
 color:#444;
 display:block;
-font:300 1.02rem "Open Sans", sans-serif;
+font:300 1rem "Open Sans", sans-serif;
 height:auto;
 margin:0 0 1.25rem;
 max-width:100%;
@@ -241,8 +241,8 @@ resize:none;
 .add-bottom { margin-bottom:4% !important; }
 .add-top { margin-top:4% !important; }
 
-.half-bottom { margin-bottom:3% !important; }
-.half-top { margin-top:3% !important; }
+.half-bottom { margin-bottom:2% !important; }
+.half-top { margin-top:2% !important; }
 
 .remove-bottom { margin-bottom:0 !important; }
 .remove-top { margin-top:0 !important; }

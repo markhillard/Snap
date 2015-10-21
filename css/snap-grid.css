@@ -16,7 +16,10 @@ width:90%;
 /* Global Settings (Rows & Columns)
 ================================================== */
 
-.row { margin-bottom:2%; }
+.row {
+margin-bottom:2%;
+position:relative;
+}
 
 .row .row {
 margin:0;
@@ -25,7 +28,9 @@ padding-right:0;
 }
 
 .row [class^="g-"]:first-child,
-.row .row [class^="g-"]:first-child { margin-left:0 !important; }
+.row .row [class^="g-"]:first-child {
+margin-left:0 !important;
+}
 
 .row [class^="g-"] {
 display:inline;
@@ -268,13 +273,17 @@ margin-left:1.88679%;
 /* Tablet */
 @media only screen and (min-width:480px) and (max-width:800px) {
     .t-g-3,
-    .t-g-2 { margin-left:1.88679% !important; }
+    .t-g-2 {
+    margin-left:1.88679% !important;
+    }
     
     .t-g-3 { width:32.07547% !important; }
     .t-g-2 { width:49.0566% !important; }
     
     .t-g-3:nth-of-type(4n),
-    .t-g-2:nth-of-type(odd) { margin-left:0 !important; }
+    .t-g-2:nth-of-type(2n+1) {
+    margin-left:0 !important;
+    }
 }
 
 
