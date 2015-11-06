@@ -120,3 +120,9 @@ Snap works in all modern web browsers and IE9+.
     </div>
 </div>
 ```
+
+## Copyright
+
+&copy; 2015 Mark Hillard
+
+[MIT License](LICENSE.md)
