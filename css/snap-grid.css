@@ -27,12 +27,12 @@ padding-left:0;
 padding-right:0;
 }
 
-.row [class^="g-"]:first-child,
-.row .row [class^="g-"]:first-child {
+.row [class*="g-"]:first-child,
+.row .row [class*="g-"]:first-child {
 margin-left:0 !important;
 }
 
-.row [class^="g-"] {
+.row [class*="g-"] {
 display:inline;
 float:left;
 position:relative;
@@ -48,7 +48,7 @@ margin-left:1.88679%;
 .row .g-1-2 { width:49.0566%; }
 
 .row .g-12 { width:100%; }
-.row .g-12 [class^="g-"] { margin-left:2%; }
+.row .g-12 [class*="g-"] { margin-left:2%; }
 .row .g-12 .g-11 { width:91.5%; }
 .row .g-12 .g-10 { width:83%; }
 .row .g-12 .g-9 { width:74.5%; }
@@ -64,7 +64,7 @@ margin-left:1.88679%;
 .row .g-12 .g-1-2 { width:49%; }
 
 .row .g-11 { width:91.50943%; }
-.row .g-11 [class^="g-"] { margin-left:2.06186%; }
+.row .g-11 [class*="g-"] { margin-left:2.06186%; }
 .row .g-11 .g-10 { width:90.72165%; }
 .row .g-11 .g-9 { width:81.4433%; }
 .row .g-11 .g-8 { width:72.16495%; }
@@ -79,7 +79,7 @@ margin-left:1.88679%;
 .row .g-11 .g-1-2 { width:48.96907%; }
 
 .row .g-10 { width:83.01887%; }
-.row .g-10 [class^="g-"] { margin-left:2.27273%; }
+.row .g-10 [class*="g-"] { margin-left:2.27273%; }
 .row .g-10 .g-9 { width:89.77273%; }
 .row .g-10 .g-8 { width:79.54545%; }
 .row .g-10 .g-7 { width:69.31818%; }
@@ -93,7 +93,7 @@ margin-left:1.88679%;
 .row .g-10 .g-1-2 { width:48.86364%; }
 
 .row .g-9 { width:74.5283%; }
-.row .g-9 [class^="g-"] { margin-left:2.53165%; }
+.row .g-9 [class*="g-"] { margin-left:2.53165%; }
 .row .g-9 .g-8 { width:88.60759%; }
 .row .g-9 .g-7 { width:77.21519%; }
 .row .g-9 .g-6 { width:65.82278%; }
@@ -106,7 +106,7 @@ margin-left:1.88679%;
 .row .g-9 .g-1-2 { width:48.73418%; }
 
 .row .g-8 { width:66.03774%; }
-.row .g-8 [class^="g-"] { margin-left:2.85714%; }
+.row .g-8 [class*="g-"] { margin-left:2.85714%; }
 .row .g-8 .g-7 { width:87.14286%; }
 .row .g-8 .g-6 { width:74.28571%; }
 .row .g-8 .g-5 { width:61.42857%; }
@@ -118,7 +118,7 @@ margin-left:1.88679%;
 .row .g-8 .g-1-2 { width:48.57143%; }
 
 .row .g-7 { width:57.54717%; }
-.row .g-7 [class^="g-"] { margin-left:3.27869%; }
+.row .g-7 [class*="g-"] { margin-left:3.27869%; }
 .row .g-7 .g-6 { width:85.2459%; }
 .row .g-7 .g-5 { width:70.4918%; }
 .row .g-7 .g-4 { width:55.7377%; }
@@ -129,7 +129,7 @@ margin-left:1.88679%;
 .row .g-7 .g-1-2 { width:48.36066%; }
 
 .row .g-6 { width:49.0566%; }
-.row .g-6 [class^="g-"] { margin-left:3.84615%; }
+.row .g-6 [class*="g-"] { margin-left:3.84615%; }
 .row .g-6 .g-5 { width:82.69231%; }
 .row .g-6 .g-4 { width:65.38462%; }
 .row .g-6 .g-3 { width:48.07692%; }
@@ -139,7 +139,7 @@ margin-left:1.88679%;
 .row .g-6 .g-1-2 { width:48.07692%; }
 
 .row .g-5 { width:40.56604%; }
-.row .g-5 [class^="g-"] { margin-left:4.65116%; }
+.row .g-5 [class*="g-"] { margin-left:4.65116%; }
 .row .g-5 .g-4 { width:79.06977%; }
 .row .g-5 .g-3 { width:58.13953%; }
 .row .g-5 .g-2 { width:37.2093%; }
@@ -148,7 +148,7 @@ margin-left:1.88679%;
 .row .g-5 .g-1-2 { width:47.67442%; }
 
 .row .g-4 { width:32.07547%; }
-.row .g-4 [class^="g-"] { margin-left:5.88235%; }
+.row .g-4 [class*="g-"] { margin-left:5.88235%; }
 .row .g-4 .g-3 { width:73.52941%; }
 .row .g-4 .g-2 { width:47.05882%; }
 .row .g-4 .g-1 { width:20.58824%; }
@@ -156,7 +156,7 @@ margin-left:1.88679%;
 .row .g-4 .g-1-2 { width:47.05882%; }
 
 .row .g-3 { width:23.58491%; }
-.row .g-3 [class^="g-"] { margin-left:8%; }
+.row .g-3 [class*="g-"] { margin-left:8%; }
 .row .g-3 .g-2 { width:64%; }
 .row .g-3 .g-1 { width:28%; }
 .row .g-3 .g-1-3 { width:28%; }
@@ -242,8 +242,8 @@ margin-left:1.88679%;
 
 /* Mobile & Tablet */
 @media only screen and (max-width:800px) {
-    .row [class^="g-"],
-    .row .row [class^="g-"] {
+    .row [class*="g-"],
+    .row .row [class*="g-"] {
     display:block;
     margin-left:0;
     position:static;
@@ -253,8 +253,8 @@ margin-left:1.88679%;
 
 /* Mobile */
 @media only screen and (max-width:479px) {
-    .row [class^="g-"],
-    .row .row [class^="g-"] {
+    .row [class*="g-"],
+    .row .row [class*="g-"] {
     left:0;
     right:0;
     }
@@ -293,7 +293,7 @@ margin-left:1.88679%;
 
 .container::after,
 .row::after,
-[class^="g-"]::after,
+[class*="g-"]::after,
 .clearfix {
 clear:both;
 content:"";
