@@ -1,10 +1,6 @@
 # Snap
 
-This is my own flavor of a fully responsive, infinitely nestable 12 column fluid grid. There are a few others like it out in the wild and mine is definitely not the first, but I mainly drew inspiration from [Shelves](http://shelvesgrid.org/) and [Skeleton](http://www.getskeleton.com/).
-
-I've used many grid systems in the past, where I'd go through the normal routine of cleaning up a ton of code and/or removing things I didn't need. I also don't like using any of the popular frameworks (i.e. Bootstrap, Foundation, etc.) because they're just too bloated in my opinion.
-
-So I created my own... with just enough to get a new project off the ground.
+Snap is an infinitely nestable 12 column fluid grid. Use it for rapid prototyping, wireframes, or fully functional websites ready for production. This simple, yet extensible grid system is focused on modern browser support, efficient code, and maintainability.
 
 ## HTML Structure
 
