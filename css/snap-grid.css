@@ -18,12 +18,11 @@ width:90%;
 ================================================== */
 
 .row {
-margin-bottom:2%;
 position:relative;
+margin:0;
 }
 
 .row .row {
-margin:0;
 padding-left:0;
 padding-right:0;
 }
@@ -36,8 +35,13 @@ margin-left:0 !important;
 .row [class*="g-"] {
 display:inline;
 float:left;
+margin-bottom:2%;
 position:relative;
 margin-left:1.88679%;
+}
+
+.row .row [class*="g-"] {
+margin-bottom:0;
 }
 
 
