@@ -119,6 +119,6 @@ Snap works in all modern web browsers and IE9+.
 
 ## Copyright
 
-&copy; 2015 Mark Hillard
+&copy; 2016 Mark Hillard
 
 [MIT License](LICENSE.md)
