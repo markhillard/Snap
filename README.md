@@ -1,5 +1,7 @@
 # Snap
 
+[![Snap releases](https://img.shields.io/github/release/markhillard/Snap.svg)](https://github.com/markhillard/Snap/releases)
+
 Snap is an infinitely nestable 12 column fluid grid. Use it for rapid prototyping, wireframes, or fully functional websites ready for production. This simple, yet extensible grid system is focused on modern browser support, efficient code, and maintainability.
 
 ## HTML Structure
