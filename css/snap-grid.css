@@ -299,7 +299,7 @@ margin-bottom:0;
 .container::after,
 .row::after,
 [class*="g-"]::after,
-.clearfix {
+.clearfix::after {
 clear:both;
 content:"";
 display:table;
