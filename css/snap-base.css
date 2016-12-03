@@ -114,7 +114,7 @@ blockquote p,q p { display:inline; }
 
 blockquote cite { color:#555; display:block; font-style:italic; margin-top:.875rem; }
 q cite { color:#555; display:inline; font-style:italic; }
-blockquote cite::before,q cite::before  { content:"\0020""\2014""\0020"; }
+blockquote cite::before,q cite::before { content:"\0020""\2014""\0020"; }
 
 
 
