@@ -48,6 +48,11 @@ margin-left:1.88679%;
 margin-bottom:0;
 }
 
+.row [class*=" g-"]:empty,
+.row [class^="g-"]:empty {
+display:none !important;
+}
+
 
 
 /* Grid (12 Columns)
