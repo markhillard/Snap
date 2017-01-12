@@ -24,7 +24,7 @@ blockquote,q { quotes:none; }
 blockquote::before,blockquote::after,q::before,q::after { content:none; }
 table { border-collapse:collapse; border-spacing:0; }
 
-button,input:not([type="checkbox"],[type="radio"]),textarea { appearance:none; background:none; }
+button,input:not([type="checkbox"]):not([type="radio"]),textarea { appearance:none; background:none; }
 button::-moz-focus-inner,input::-moz-focus-inner { border:0; padding:0; }
 
 * { -webkit-tap-highlight-color:rgba(0,0,0,0); -webkit-tap-highlight-color:transparent; }
