@@ -37,14 +37,19 @@ You can use the following classes to add space around columns and/or adjust thei
 
 ### Forced Equal Columns
 
-This helps when you want 2 or 3 equal columns that can't fit inside a container equally (i.e. 3 columns inside an element with a class of `g-8`). Simply use the `g-1-2` or `g-1-3` classes to achieve this.
+This helps when you want 2, 3, or 4 equal columns that can't fit inside a container equally (i.e. 3 columns inside an element with a class of `g-8`). Use the following classes to achieve this.
+
+- 2 Equal Columns (desktop): `g-1-2`
+- 3 Equal Columns (desktop): `g-1-3`
+- 4 Equal Columns (desktop): `g-1-4`
 
 ### Tablet Views
 
 You can use the following classes (in addition to the `g-` class prefix) to prevent columns from stacking when your screen gets down to tablet (portrait) size. These will also work on nested columns.
 
-- 2 Equal Columns: `t-g-2`
-- 3 Equal Columns: `t-g-3`
+- 2 Equal Columns (tablet): `t-g-2`
+- 3 Equal Columns (tablet): `t-g-3`
+- 4 Equal Columns (tablet): `t-g-4`
 
 ## Examples
 
@@ -113,7 +118,7 @@ You can use the following classes (in addition to the `g-` class prefix) to prev
 
 ### Base Styles
 
-I've created a set of "sanitized" styles to get started with. Included is a modified CSS reset, neutral styles for typography, block &amp; inline quotations, links, lists, images, buttons, and form elements as well as other miscellaneous "helper" classes.
+Snap comes with a set of "sanitized" styles to get started with. Included is a modified CSS reset, neutral styles for typography, block &amp; inline quotations, links, lists, images, buttons, and form elements as well as other miscellaneous "helper" classes.
 
 These are all inside a separate stylesheet, so just delete it if you'd like to start from scratch.
 
@@ -123,6 +128,6 @@ Snap works in all modern web browsers and IE9+.
 
 ## Copyright
 
-&copy; 2016 Mark Hillard
+&copy; 2020 Mark Hillard
 
 [MIT License](LICENSE.md)
