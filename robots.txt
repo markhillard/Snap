@@ -1,0 +1,8 @@
+User-agent: *
+Disallow:
+Disallow: /css/
+Disallow: /favicons/
+Disallow: /fonts/
+Disallow: /images/
+Disallow: /js/
+Sitemap: https://markhillard.github.io/Snap/sitemap.xml
